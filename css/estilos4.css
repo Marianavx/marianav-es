@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #24282B;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 5px solid #1293D4;
+
+}
+
+#azul {
+  color: #1293D4;
+}
+
+.menu a {
+  color: white;
+  margin: 7px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #1293D4;
+  transition: 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  background-color: #24282B;
+  height: 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 60px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.caja {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 12%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#texto1 {
+  margin-right: 5px;
+  padding: 4px;
+}
+
+#boton {
+  background-color: #E8491D;
+  padding: 4px;
+}
+.box1{
+width: 963px;
+display: flex;
+flex-direction: column;
+}
+.box2 {
+  width: 300px;
+  background-color: #24282B;
+  height: 200px;
+  color: #fff;
+  padding: 20px;
+}
+.box{
+  padding: 15px;
+  width: 97%;
+}
+#cajam{
+  height: 100px;
+}
+#value{
+  background-color: #E8491D;
+  border: none;
+  margin-top: 10px;
+  width: 100%;
+  color: #fff;
+}
+aside{
+  display: flex;
+  flex-direction: column;
+}
+img{
+  background-size: cover;
+  height: 30vh;
+  width:93%;
+  padding-top: 30px;
+}
+.box1 p{
+   color:black;
+   padding-top: 10px;
+}
+footer{
+  background-color: #1293D4;
+  height: 9.1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+@media(max-width:1024px){
+img{
+  margin-left:56px ;
+}
+.box2{
+  margin-left: 56px;
+}
+}
+@media(max-width:547px){
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    max-width: 547px;
+    font-size: 14px;
+  }
+  header {
+    display: flex;
+    height: 70px;
+    width:100%;
+
+  }
+  
+  .caja{
+    width: 50%;
+  }
+  .box1{
+    width: 360px;
+  }
+  .box2{
+    margin: 40px 0;
+  }
+  img{
+    margin:  0;
+  }
+}

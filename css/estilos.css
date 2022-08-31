@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #24282B;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 5px solid #1293D4;
+
+}
+
+#azul {
+  color: #1293D4;
+}
+
+.menu a {
+  color: white;
+  margin: 7px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #1293D4;
+  transition: 0.3s;
+}
+
+header {
+  background-image: url(../images/cabecera.jpg);
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+header h1 {
+  color: white;
+}
+
+header p {
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  background-color: #24282B;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.caja {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 12%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#texto1 {
+  margin-right: 5px;
+  padding: 4px;
+}
+
+#boton {
+  background-color: #E8491D;
+  padding: 3px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+  background-color: #1293D4;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+@media (max-width:1024px) {
+  body {
+    width: 100%;
+  }
+
+  img {
+    width: 150px;
+  }
+}
+
+@media(max-width:547px) {
+  body {
+    width: 100%;
+  }
+
+  nav {
+    max-width: 547px;
+    font-size: 14px;
+
+  }
+
+  header {
+    max-width: 547px;
+    height: 70vh;
+    font-size: 18px;
+  }
+
+  section {
+    display: flex;
+    height: 70px;
+        width:100%;
+
+  }
+  
+  .caja{
+    width: 50%;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    padding: 10px 0;
+  }
+}
